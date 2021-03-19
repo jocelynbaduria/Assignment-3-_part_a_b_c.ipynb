@@ -10,3 +10,4 @@ HW3 Part-A Numpy - Relu Non-linear Implementation
 7. Plot the output post training as well as the real data  using tsne.
    Result: Similar plots but different values
  
+# Assignment-3_part_b1.ipynb
