@@ -30,3 +30,13 @@ HW3 Part-B2 Pytorch - Relu Non-linear, with auto-differentiation primitive Imple
 6. Plot the output post training as well as the real data  using tsne.
    Result: Similar plots but different values
  
+# Assignment-3_part_b3.ipynb
+HW3 Part-B3 Pytorch - Relu Non-linear, with auto-differentiation high level primitive implementation
+1. Generate data: 3 dimensions input and 2 dimensions output 
+2. Add Linear function using 10samples training input and two samples for training output.
+3. Perform Training Loop Function.
+4. Add ReLU Function.
+5. Train again the model after performing cost function computation and adding ReLU and optimization
+6. Sequential Function using ReLU activation function in Hidden Layer
+7. Fit the model using the cost function and optimization using Pytorch.
+8. Plot the output post training as well as the real data using tsne with 10 input/2 output training sample. Result: Similar plots but different values.
