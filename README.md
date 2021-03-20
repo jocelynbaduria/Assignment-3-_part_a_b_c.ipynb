@@ -11,7 +11,7 @@ HW3 Part-A Numpy - Relu Non-linear Implementation
    Result: Similar plots but different values
  
 # Assignment-3_part_b1.ipynb
-HW3 Part-B2 Pytorch - no autodifferentiation primitive Implementation
+HW3 Part-B2 Pytorch - no auto-differentiation Implementation
 1. Generate data: 3 dimensions input and 2 dimensions output 
 2. Add ReLu function to learn the non-linear data, we need non-linearities in our model but didn't use it (no auto-differentiation)
 3. Train the 3dim and 2output generated data using Pytorch
@@ -20,7 +20,7 @@ HW3 Part-B2 Pytorch - no autodifferentiation primitive Implementation
    Result: Similar plots but different values
 
 # Assignment-3_part_b2.ipynb
-HW3 Part-B2 Pytorch - Relu Non-linear, with autodifferentiation primitive Implementation
+HW3 Part-B2 Pytorch - Relu Non-linear, with auto-differentiation primitive Implementation
 
 1. Generate data: 3 dimensions input and 2 dimensions output 
 2. Add ReLu function to learn the non-linear data, we need non-linearities in our model.
