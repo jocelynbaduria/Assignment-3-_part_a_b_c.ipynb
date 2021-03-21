@@ -53,6 +53,13 @@ HW3 Part-C1 Tensorflow - no auto-differentiation Implementation
 
 # Assignment-3_part_c2.ipynb
 HW3 Part-C1 Tensorflow - Relu Non-linear, with auto-differentiation primitive Implementation
+1. Generate data: 3 dimensions input and 2 dimensions output and utility functions
+2. Train the model and compute the cost function for each epoch.
+3. Compute the Model predictions
+4. Add ReLu function to learn the non-linear data
+5. Train the 3dim and 2output generated data with Relu function and cost function
+6. Fit the model again
+7. Plot the output post training as well as the real data using tsne. Result: Similar plots but different value.
 
 # Assignment-3_part_c3.ipynb
 HW3 Part-C1 Tensorflow - Relu Non-linear, with auto-differentiation high level primitive implementation
