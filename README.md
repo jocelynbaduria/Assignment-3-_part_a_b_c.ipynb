@@ -40,3 +40,19 @@ HW3 Part-B3 Pytorch - Relu Non-linear, with auto-differentiation high level prim
 6. Sequential Function using ReLU activation function in Hidden Layer
 7. Fit the model using the cost function and optimization using Pytorch.
 8. Plot the output post training as well as the real data using tsne with 10 input/2 output training sample. Result: Similar plots but different values.
+
+# Assignment-3_part_c1.ipynb
+HW3 Part-C1 Tensorflow - no auto-differentiation Implementation
+1. Generate data: 3 dimensions input and 2 dimensions output and utility functions
+2. Train the model and compute the cost function for each epoch.
+3. Compute the Model predictions
+4. Add ReLu function to learn the non-linear data
+5. Train the 3dim and 2output generated data with Relu function and cost function
+6. Fit the model again
+7. Plot the output post training as well as the real data using tsne. Result: Similar plots but different value.
+
+# Assignment-3_part_c2.ipynb
+HW3 Part-C1 Tensorflow - Relu Non-linear, with auto-differentiation primitive Implementation
+
+# Assignment-3_part_c3.ipynb
+HW3 Part-C1 Tensorflow - Relu Non-linear, with auto-differentiation high level primitive implementation
