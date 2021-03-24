@@ -52,7 +52,7 @@ HW3 Part-C1 Tensorflow - no auto-differentiation Implementation
 7. Plot the output post training as well as the real data using tsne. Result: Similar plots but different value.
 
 # Assignment-3_part_c2.ipynb
-HW3 Part-C1 Tensorflow - Relu Non-linear, with auto-differentiation primitive Implementation
+HW3 Part-C2 Tensorflow - Relu Non-linear, with auto-differentiation primitive Implementation
 1. Generate data: 3 dimensions input and 2 dimensions output and utility functions
 2. Train the model and compute the cost function for each epoch.
 3. Compute the Model predictions
@@ -62,4 +62,15 @@ HW3 Part-C1 Tensorflow - Relu Non-linear, with auto-differentiation primitive Im
 7. Plot the output post training as well as the real data using tsne. Result: Similar plots but different value.
 
 # Assignment-3_part_c3.ipynb
-HW3 Part-C1 Tensorflow - Relu Non-linear, with auto-differentiation high level primitive implementation
+HW3 Part-C3 Tensorflow - Model Subclassing, Relu Non-linear, with auto-differentiation high level primitive implementation
+1. Createad a Class Linear, MLPBlock with Relu in forward pass and ActivityRegularizationLayer to add loss method.
+2. Then retrieve the loss via OuterLayer class.
+3. Added OuterLayerWithKernelRegularizer for loss regularization.
+4. The add_metric() method Similarly to add_loss(), layers also have an add_metric() method for tracking the moving average of a quantity during training.
+5. Add a "logistic endpoint" layer. It takes as inputs predictions & targets, it computes a loss which it tracks via add_loss(), 
+   and it computes an accuracy scalar, which it tracks via add_metric().
+7. Just like for add_loss(), these layer metrics in Logistic endpoint are tracked by fit() method.
+8. Plot the summary model and the TSNE ( true value and predicted TSNE )
+   Added Tensorboard for loss tracking.
+
+
